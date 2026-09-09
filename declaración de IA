@@ -1,0 +1,29 @@
+Declaración del uso sobre la IA
+
+Porcentajes de uso de IA:
+HTML: 0% IA (100% realizado por el informatico)
+CSS: 0% IA (100% realizado por el informatico)
+JavaScript: 45% IA (55% realizado por el informatico)
+
+Porcentaje total de IA en el proyecto: 15% (cumple con el límite máximo del 50%)
+
+Razones de uso de IA:
+Se usaron herramientas de inteligencia artificial para el desarrollo.
+
+Detalle línea a línea del código JavaScript:
+
+Líneas 1 a 37 (Arreglo de datos del objeto 'equipo'): 0% IA (realizado por el informatico)
+Líneas 38 a 50 (Renderizado e inserción dinámica del equipo en el DOM): 
+Uso de IA para la parte logiaca y errores de tipeo.
+
+Líneas 52 a 122 (Lógica del formulario de mascotas, validaciones, cálculo de tarifas y guardado en localStorage):
+Se uso IA para el guardado de registos y posibles casos de datos errados.
+
+Líneas 124 a 201 (Panel de administración, autenticación de usuario, tabla de reservas y función para eliminar registros): 
+Uso de IA Para buena identificación, cubrir todo caso posible y se evitaran errores logicos
+
+Líneas 203 a 267 (Calculadora de finanzas, manejo de errores de formulario y alertas de presupuesto): 
+Uso de IA para toda la calculadora ejecución correcta, buena demostración del contenido y mensaje del ingreso de los datos errados
+  
+Declaración de honestidad:
+Declaro de forma transparente que la información entregada corresponde fielmente al desarrollo del proyecto publicado.

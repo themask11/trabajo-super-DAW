@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="author" content="Vicente Leiva">
+    <meta name="description" content="Guardería canina para diversas mascotas, con el fin de darles la mejor atención">
+    <meta name="keywords" content="animales, guarderia, cuidados, finanzas, google ads">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Guarderia Pelusa - Finanzas</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="lista_cabeza">
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="nosotros.html">nosotros</a></li>
+                <li><a href="servicios.html">servicios</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+                <li><a href="finanzas.html">finanzas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="title">
+        <h1>Finanzas y Presupuesto Comercial</h1>
+    </div>
+
+    <main class="contenedor-finanzas" style="flex-direction: column; align-items: center; gap: 20px;">
+        <div class="card-finanzas">
+            <h2 class="titulo-costos">Costos Fijos del Desarrollo</h2>
+            <div class="grid-costos">
+                <div class="columna">
+                    <p>Dominio NIC Chile: $10.990 CLP / año</p>
+                    <p>Hosting (Hostinger): $23.880 CLP / año</p>
+                </div>
+                <div class="columna">
+                    <p>Tarifa Hora Dev: $15.000 CLP/hr</p>
+                    <p>Horas Estimadas: 20 hrs ($300.000 CLP)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-finanzas" style="padding: 20px;">
+            <h2 class="titulo-costos">Calculadora Google Ads (SEM)</h2>
+            <form id="form-finanzas">
+                <div class="campo-grupo">
+                    <label for="cpc">Costo por Clic estimado (CPC en $ CLP)</label>
+                    <input type="text" id="cpc" name="cpc" placeholder="Ej: 150">
+                </div>
+
+                <div class="campo-grupo">
+                    <label for="clics">Cantidad de clics mensuales esperados</label>
+                    <input type="text" id="clics" name="clics" placeholder="Ej: 500">
+                </div>
+
+                <div class="boton-contenedor" style="text-align: center; margin-top: 10px;">
+                    <button type="submit" class="btn-confirmar">Calcular Presupuesto</button>
+                </div>
+
+                <div id="resultado-finanzas" style="margin-top: 12px;"></div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>la mejor guardería canina del país</p>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

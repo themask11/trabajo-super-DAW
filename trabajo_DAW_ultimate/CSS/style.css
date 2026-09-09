@@ -1,0 +1,444 @@
+/* configuraciones generales de los html */
+body {
+    background: url(../IMG/fondo_animal.png) no-repeat center/cover;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+header {
+    background-color: rgb(126, 217, 87);
+    padding: 12px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #000000;
+    font-weight: 800;
+}
+
+ul.lista_cabeza {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #1a1a1a;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: auto;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+/* cartas y contenido */
+.card-formulario,
+.card-contacto,
+.card-finanzas,
+.block,
+.title {
+    background-color: rgb(179, 252, 103);
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: fit-content;
+    color: #000000;
+}
+
+.title {
+    width: 45%;
+    margin: 40px auto 20px;
+    padding: 12px;
+    text-align: center;
+}
+
+.title h1 {
+    color: #000000;
+    font-weight: 800;
+    font-size: 22px;
+    margin: 0;
+}
+
+.contenido,
+.contenedor-contacto,
+.contenido-servicios,
+.contenedor-finanzas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+
+.contenido {
+    justify-content: space-between;
+    padding: 30px 10%;
+    gap: 20%;
+}
+
+.contenedor-contacto {
+    gap: 20px;
+}
+
+.block {
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    color: #000000;
+}
+
+.block h2,
+.card-formulario h2,
+.card-contacto h2,
+.titulo-costos,
+.seccion-canales h3 {
+    text-align: center;
+    margin-top: 0;
+    color: #000000;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.block p,
+.info-texto,
+.seccion-canales span {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.contenedor-perros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    max-width: 1000px;
+    margin: 25px auto 35px;
+    gap: 20px;
+}
+
+.perros-1,
+.perros-2 {
+    width: 48%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-formulario {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px 25px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.campo-grupo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.campo-grupo label {
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+.campo-grupo input {
+    background: rgb(217, 217, 217);
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 8px 12px;
+    outline: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.btn-confirmar {
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    padding: 8px 30px;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.btn-confirmar:hover {
+    background: #222222;
+}
+
+.card-contacto {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+.lista-redes {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-redes li,
+.contacto-telefono {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.lista-redes img,
+.contacto-telefono img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.card-finanzas {
+    width: 100%;
+    max-width: 650px;
+    padding: 15px 0 20px;
+}
+
+.titulo-costos {
+    font-size: 20px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+.grid-costos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-costos .columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.grid-costos .columna:first-child {
+    border-right: 2px solid #000000;
+}
+
+.grid-costos p {
+    font-size: 14px;
+    margin: 4px 0;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+}
+
+.team h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #000000;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#equipo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.tarjeta {
+    background-color: #b3fc67;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #000000;
+}
+
+.tarjeta h3 {
+    margin: 6px 0 4px 0;
+    color: #000000;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.tarjeta p {
+    font-size: 0.82em;
+    color: #000000;
+    margin: 3px 0;
+    font-weight: 600;
+}
+
+#panel-admin {
+    max-width: 550px;
+}
+
+.tabla-contenedor {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+
+.tabla-admin {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent;
+    font-size: 12px;
+    color: #000000;
+}
+
+.tabla-admin th {
+    border: 1px solid #000000;
+    padding: 6px 4px;
+    text-align: center;
+    color: #000000;
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.tabla-admin td {
+    border: 1px solid #000000;
+    padding: 6px 4px;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+}
+
+.btn-logout {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    padding: 8px 24px;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.btn-logout:hover {
+    background-color: #222222;
+}
+
+.btn-eliminar {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.btn-eliminar:hover {
+    background-color: #bd2130;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    ul.lista_cabeza,
+    .contenido,
+    .contenedor-contacto {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    ul.lista_cabeza {
+        gap: 6px;
+    }
+
+    a {
+        margin: 3px 0;
+    }
+
+    .grid-costos {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-costos .columna:first-child {
+        border-right: none;
+        border-bottom: 2px solid #000000;
+    }
+
+    .contenedor-perros {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .perros-1,
+    .perros-2 {
+        width: 100%;
+        max-width: 380px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    .title {
+        width: 90%;
+        margin-top: 25px;
+        padding: 8px;
+    }
+
+    .block p,
+    .grid-costos p {
+        font-size: 13px;
+    }
+
+    .card-formulario,
+    .card-contacto,
+    .card-finanzas {
+        padding: 15px;
+    }
+}
